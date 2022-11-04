@@ -1,0 +1,212 @@
+html {
+    background-color: black;
+}
+
+img {
+    width: 30px;
+}
+
+h3 {
+    color: rgb(213, 212, 212);
+}
+
+.container-all {
+    display: flex;
+}
+
+.left-container {
+    border-right: 1px slategray solid;
+    flex: 3;
+}
+
+.left-container * {
+    text-align: left;
+    line-height: 24pt;
+    font-size: 16pt;
+    text-indent: 32%;
+}
+
+.tweet-button {
+    margin-left: 130px;
+    background-color: rgb(29, 161, 242);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px / 30px;
+}
+
+.tweet-button * {
+    line-height: 50px;
+    text-indent: 35%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.handle {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile * {
+    font-size: 12pt;
+    margin: 0 0 0 0;
+}
+
+.profile img {
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.profile h4:first-of-type {
+    color:rgb(213, 212, 212);
+}
+
+.profile h4:nth-last-of-type(1) {
+    color: slategray;
+}
+
+.middle-container {
+    border-right: 1px slategray solid;
+    flex: 4.5;
+}
+
+.middle-container > div {
+    border: 1px slategray solid;
+}
+
+.tweet-box * {
+    text-indent: 2%;
+    color:rgb(213, 212, 212);
+}
+
+.tweet-box-1 {
+    display: flex;
+}
+
+.tweet-box-1 img {
+    width: 60px;
+    height: 50px;
+}
+
+.tweet-box-2 {
+    display:flex;
+}
+
+.tweet-box-2 img {
+    height: 40px;
+    width: 200px;
+    margin-left: 80px;
+}
+
+.tweet-box-2 div {
+    margin-left: 200px;
+    text-indent: 30%;
+    line-height: 1px;
+    text-align: center;
+    background-color: rgb(29, 161, 242);
+    width: 80px;
+    height: 30px;
+    border-radius: 30px / 30px;
+}
+
+.tweet-box h3:nth-child(2){
+    color: slategray;
+    flex-grow: 4;
+}
+
+.tweet1 {
+    display: flex;
+}
+
+.tweet1 img {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.tweet1 span:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 10px;
+    color:rgb(213, 212, 212);
+}
+
+.tweet1 span:nth-child(3) {
+    margin-top: 10px;
+    color:rgb(150, 150, 150);
+}
+
+.tweet1 h5 {
+    margin-left: 10px;
+    color:rgb(213, 212, 212);
+}
+
+.tweet1 img:nth-child(5) {
+    width: 450px;
+    height: 250px;
+}
+
+.tweet1 img:nth-last-child(1) {
+    width: 450px;
+    height: 45px;
+}
+
+.right-container {
+    flex: 4;
+}
+
+.search-bar {
+    display: flex;
+    margin-left: 50px;
+    width: 350px;
+    height: 45px;
+    border-radius: 30px / 30px;
+    background-color: rgb(31, 31, 31);
+}
+
+.search-bar img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.search-bar h4 {
+    line-height: 1px;
+    margin-left: 10px;
+    color:rgb(100, 100, 100);
+}
+
+.trends {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 640px;
+    border-radius: 30px / 30px;
+    background-color: rgb(25, 25, 25);
+}
+
+.trends h3 {
+    margin-left: 15px;
+    color:rgb(213, 212, 212);
+}
+
+.trends h4 {
+    margin-left: 15px;
+    line-height: 3px;
+    color:rgb(213, 212, 212);
+}
+
+.trends h5 {
+    margin-left: 15px;
+    line-height: 3px;
+    color:rgb(100, 100, 100);
+}
